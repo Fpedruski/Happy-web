@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{    
+    height: 100vh;
+    color: white;  
+}
+
+body, input, button, textarea{
+    font: 400 1.8rem/1 'Nunito', sans-serif; /*Shorthand property*/
+
+    /*Tamanho da fonte do body é 180% da fonte do pai (no caso, a tag <html></html>)*/
+    /* Portanto, 1.8em equivale a 18px (10px x 1.8) como foi especificado no seletor :root */
+    /* font-size: 1.8em;   */
+    /* font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1;
+    font-family: 'Nunito', sans-serif; */
+}
+
+#logo {
+    animation-delay: 50ms;
+}
+
+.location{
+    animation-delay: 100ms;
+}
+
+main h1{
+    animation-delay: 150ms;
+}
+
+.visit p{
+    animation-delay: 200ms;
+}
+
+.visit a{
+    animation-delay: 250ms;
+}
